@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* 版块管理页样式 */
+.right_wrap>div{
+	padding:10px;
+}
+.right_wrap input,.right_wrap select{
+	width:60%;
+	display:inline-block;
+	margin-left:10px;
+}

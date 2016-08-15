@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* 看帖样式 */
+section{
+	margin:5px 0;
+}
+
+section>div{
+	margin: 5px 0;
+}
+
+section div a{
+	color: #09c;
+}
+
+.reply_btn{
+	width: 66px;
+	height: 26px;
+	background: url(../imgs/reply.gif);
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.post_btn{
+	width: 63px;
+	height: 26px;
+	background: url(../imgs/post.gif);
+	cursor: pointer;
+	display: inline-block;
+}
+
+section table{
+	width: 100%;
+	border:1px solid #8ccfe5;
+	border-collapse: collapse;
+	background-color: #f1f5fa;
+	font-size: 16px;
+	color: #000;
+	margin: 5px 0;
+}
+section table a{
+	font-size: 16px;
+	color: #09c;
+}
+
+section table thead tr:first-child{
+	height: 30px;
+	background-color: #036;
+	color: #fff;
+	text-align: left;
+	font-size: 14px;
+}
+
+section table thead tr:last-child{
+	height: 25px;
+	background-color: #09c;
+	color: #fff;
+	font-size: 14px;
+}
+
+section table th{
+	border:1px solid #8ccfe5;
+}
+
+section table th:first-child{
+	width: 780px;
+}
+
+section table th:nth-child(2){
+	width: 100px;
+}
+
+section table th:last-child{
+	width: 100px;
+}
+
+section table td{
+	border:1px solid #8ccfe5;
+	padding: 5px 8px;
+}
+
+section table tbody tr{
+	height: 120px;
+}
+
+section table tbody tr td:first-child{
+	width: 150px;
+}
+
+.poster div:first-child{
+	font-size: 16px;
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+
+.poster div:nth-child(2){
+	height: 72px;
+}
+
+.poster div:last-child{
+	font-size: 12px;
+	color: #88898b;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 5px;
+}
+
+.post_content div:first-child{
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+}
+
+.post_content div:nth-child(2){
+	height: 61px;
+	font-size: 15px;
+}
+
+.post_content div:last-child{
+	border-top: 1px solid #ddd;
+	font-size: 12px;
+	color: #88898b;
+	height: 20px;
+	line-height: 20px;
+}
+
+.post_content div:last-child a{
+	font-size: 12px;
+}
+
+.delete_win{
+	position: fixed;
+	z-index: 2;
+	left:400px;
+	top:150px;
+	width: 478px;
+	height: 250px;
+	background-color: rgba(140,207,229,0.7);
+	display: none;
+}
+
+.delete_win>div{
+	width: 462px;
+	height: 234px;
+	background-color: #fff;
+	margin: 8px;
+}
+
+.delete_win>div>div{
+	font-size:18px;
+	text-align: center;
+	height:100px;
+	line-height: 100px;
+}
+
+.delete_win>div>div button:last-child{
+	margin-left:30px;
+}

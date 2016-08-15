@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* 版块样式 */
+section{
+	margin:5px 0;
+}
+
+section div{
+	margin: 5px 0;
+}
+
+section div a{
+	color: #09c;
+}
+
+.post_btn{
+	width: 63px;
+	height: 26px;
+	background: url(../imgs/post.gif);
+	cursor: pointer;
+	display: inline-block;
+}
+
+section table{
+	width: 100%;
+	border:1px solid #8ccfe5;
+	border-collapse: collapse;
+	background-color: #f1f5fa;
+	font-size: 16px;
+	color: #000;
+	margin: 5px 0;
+}
+section table a{
+	font-size: 16px;
+	color: #09c;
+}
+
+section table thead tr:first-child{
+	height: 30px;
+	background-color: #036;
+}
+
+section table thead tr:last-child{
+	height: 25px;
+	background-color: #09c;
+	color: #fff;
+	font-size: 14px;
+}
+
+section table th{
+	border:1px solid #8ccfe5;
+}
+
+section table th:first-child{
+	width: 780px;
+}
+
+section table th:nth-child(2){
+	width: 100px;
+}
+
+section table th:last-child{
+	width: 100px;
+}
+
+section table td{
+	border:1px solid #8ccfe5;
+}
+
+section table tbody tr{
+	height: 40px;
+}
+
+section table tbody tr td:first-child{
+	width: 50px;
+}
+
+section table tbody tr td:nth-child(2){
+	padding-left: 10px;
+}
+
+section table tbody tr td:not(:nth-child(2)){
+	text-align: center;
+}

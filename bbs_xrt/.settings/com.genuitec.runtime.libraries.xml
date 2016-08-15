@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project adv-config="true">
+  <add-on id="spring.persistence"/>
+  <add-on id="spring.web"/>
+  <container path="com.genuitec.runtime.library/com.genuitec.spring_4.1">
+    <jar-attrs id="data/4.1.0/dist/spring-jdbc-4.1.0.RELEASE.jar">
+      <attribute name="javadoc_location" value="http://docs.spring.io/spring/docs/4.1.0.RELEASE/javadoc-api/"/>
+      <attribute name="source-path-root"/>
+      <attribute name="source-path" value="/Users/appleuser/Desktop/spring-framework-4.0.4.RELEASE/libs/spring-core-4.0.4.RELEASE-sources.jar"/>
+    </jar-attrs>
+  </container>
+</project>

@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* 发帖样式 */
+section{
+	margin:5px 0;
+}
+
+section>div{
+	margin: 5px 0;
+}
+
+section div a{
+	color: #09c;
+}
+
+section table{
+	width: 100%;
+	border:1px solid #8ccfe5;
+	border-collapse: collapse;
+	background-color: #f1f5fa;
+	font-size: 16px;
+	color: #000;
+	margin: 5px 0;
+}
+section table a{
+	font-size: 16px;
+	color: #09c;
+}
+
+section table thead tr{
+	height: 30px;
+	background-color: #036;
+	color: #fff;
+	text-align: left;
+	font-size: 14px;
+}
+
+section table th{
+	border:1px solid #8ccfe5;
+}
+
+section table td{
+	border:1px solid #8ccfe5;
+	padding: 5px 8px;
+	font-size: 14px;
+}
+
+section table tbody tr:first-child{
+	height: 40px;
+}
+
+section table tbody tr:last-child{
+	height: 200px;
+}
+
+section table tbody tr td:first-child{
+	width: 195px;
+	vertical-align: top;
+	padding-top: 10px;
+}
+
+section table tbody tr input{
+	width: 400px;
+	height: 25px;
+}
+
+section table tbody tr textarea{
+	width: 600px;
+	height: 300px;
+	resize: none;
+}
+
+form>div{
+	text-align: center;
+}

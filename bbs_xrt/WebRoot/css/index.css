@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* 首页样式 */
+section{
+	margin:5px 0;
+	background-color: #f1f5fa;
+}
+
+section table{
+	font-size: 16px;
+	border-collapse: collapse;
+}
+section table a{
+	font-size: 16px;
+	color: #09c;
+}
+
+section table thead tr{
+	height: 25px;
+	font-size: 14px;
+}
+
+section table th:first-child{
+	width: 560px;
+}
+
+section table th:nth-child(2){
+	width: 100px;
+}
+
+section table th:last-child{
+	width: 320px;
+}
+
+.topic_title{
+	height: 30px;
+}
+
+.topic_title td{
+	padding-left: 10px;
+}
+
+section table tbody tr:not(.topic_title){
+	height: 50px;
+}
+
+section table tbody tr:not(.topic_title) td:first-child{
+	width: 50px;
+}
+
+section table tbody tr:not(.topic_title) td:first-child{
+	text-align: center;
+}
+
+section table tbody tr:not(.topic_title) td:nth-child(3){
+	text-align: center;
+}
+
+section table .lastpost{
+	font-size: 14px;
+}
+
+section table .lastpost a{
+	font-size: 14px;
+}
+
+section table .lastpost div:last-child{
+	margin-top:7px;
+}
+
+section table .lastpost div:last-child span:last-child{
+	margin-left:5px;
+	color:#666;
+}

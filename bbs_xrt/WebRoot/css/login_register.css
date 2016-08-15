@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* 注册登录样式 */
+/* 能够移动的区域的样式 */
+.move_wrap{
+	position: fixed;
+	z-index: 3;
+	left:400px;
+	top:150px;
+	width: 478px;
+	height: 78px;
+	display:none;
+}
+/* 登录界面样式开始 */
+.exit_btn_out{
+	width: 23px;
+	height: 23px;
+	border-radius: 3px;
+	color: #333;
+	background-color: #ddd;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	line-height: 23px;
+}
+
+.exit_btn_over{
+	width: 23px;
+	height: 23px;
+	border-radius: 3px;
+	color: #fff;
+	background-color: #8ccfe5;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	line-height: 23px;
+}
+
+.login_wrap{
+	position: fixed;
+	z-index: 2;
+	left:400px;
+	top:150px;
+	width: 520px;
+	height: 300px;
+	background-color: rgba(140,207,229,0.7);
+	display: none;
+}
+
+.login_wrap .exit_btn_out{
+	position: relative;
+	left: 470px;
+	top: 10px;
+}
+
+.login_wrap .exit_btn_over{
+	position: relative;
+	left: 470px;
+	top: 10px;
+}
+
+.login_wrap>div{
+	width: 504px;
+	height: 284px;
+	background-color: #fff;
+	margin: 8px;
+}
+
+.login_wrap>div table{
+	width: 380px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+.login_wrap>div table tr{
+	height: 30px;
+}
+
+.login_wrap>div table tr:first-child{
+	height: 70px;
+	text-align: left;
+	color: #4b9bcc;
+	font-size: 18px;
+}
+
+.login_wrap>div table tr:not(:first-child) td:last-child{
+	text-align: left;
+	padding-left: 30px;
+}
+
+.login_wrap .vcode{
+	margin-left:10px;
+}
+
+.login_wrap td span{
+	margin-left:10px;
+}
+
+.login_wrap form>div{
+	margin-top: 30px;
+	text-align: center;
+}
+
+.login_wrap input[type="text"],.login_wrap input[type="password"]{
+	width:130px;
+}
+/* 登录界面样式结束 */
+
+/* 注册界面样式开始 */
+.register_wrap{
+	position: fixed;
+	z-index: 2;
+	left:400px;
+	top:150px;
+	width: 520px;
+	height: 335px;
+	background-color: rgba(140,207,229,0.7);
+	display: none;
+}
+
+.register_wrap .exit_btn_out{
+	position: relative;
+	left: 470px;
+	top: 10px;
+}
+
+.register_wrap .exit_btn_over{
+	position: relative;
+	left: 470px;
+	top: 10px;
+}
+
+
+.register_wrap>div{
+	width: 504px;
+	height: 319px;
+	background-color: #fff;
+	margin: 8px;
+}
+
+.register_wrap>div>form>table{
+	width: 390px;
+	margin-left: 90px;
+	text-align: center;
+}
+
+.register_wrap>div>form>table tr{
+	height: 30px;
+}
+
+.register_wrap>div>form>table tr:first-child{
+	height: 45px;
+	text-align: left;
+	color: #4b9bcc;
+	font-size: 18px;
+}
+
+.register_wrap>div>form>table tr td:nth-child(2){
+	text-align: left;
+	padding-left:10px;
+	width:310px;
+}
+
+.register_wrap>div>form>table td span{
+	margin-left: 10px;
+}
+
+.register_wrap form>div:last-of-type{
+	margin-top: 7px;
+	text-align: center;
+}
+
+.head_select{
+	display: none;
+	position: absolute;
+	left: 35px;
+	top: 30px;
+	width: 420px;
+	height: 255px;
+	background-color: #fff;
+	border: 8px solid rgba(140,207,229,0.7);
+}
+
+.head_select td{
+	width: 84px;
+}
+
+.head_select>div{
+	text-align: center;
+	margin: 6px;
+}
+/* 注册界面样式结束 */
